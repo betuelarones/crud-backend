@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+.env.*
+.phpunit.result.cache
+vendor
+node_modules
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/framework/testing/*
+storage/.docker-app-key
+bootstrap/cache/*
+public/storage
