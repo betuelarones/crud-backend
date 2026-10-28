@@ -236,10 +236,3 @@ database/
   factories/ seeders/     Datos de ejemplo
 tests/Feature/Api/         Pruebas de la API y auditoría
 ```
-
-## Decisiones
-
-- Sin autenticación: la prueba no la requiere; el foco está en el CRUD, validaciones y frontend.
-- Se respetó Laravel 13, la versión instalada en el proyecto.
-- La eliminación de categorías con productos activos devuelve `409` para evitar dejar productos huérfanos.
-- Los precios se serializan como cadena decimal para preservar precisión.
